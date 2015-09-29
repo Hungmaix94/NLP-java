@@ -96,7 +96,7 @@ public class Pool {
         
     }
 	
-	
+    
 	
 	
 
@@ -104,7 +104,7 @@ public class Pool {
 		// TODO Auto-generated method stub
     	String[] DClasses = {"clinton",  "lawyer",  "math",  "medical",  "music",  "sex"};
 
-		String base = "learn/";
+		String base = "/NLP/learn/";
 		Pool p = new Pool();
 		for (String classname : DClasses){
 		    p.learn(base + classname, classname);
@@ -112,7 +112,7 @@ public class Pool {
 
 
 
-		base = "test/";
+		base = "/NLP/test/";
 		for (String classname : DClasses ){
 		    //dir = os.listdir(base + classname)
 			File dir = new File(base+classname);
